@@ -1,0 +1,8 @@
+framework module "planetlink" {
+    umbrella header "planetlink.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
